@@ -15,6 +15,8 @@
 		E5B398A72227A14B008EED5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B398A62227A14B008EED5D /* main.m */; };
 		E5B398B12227A14B008EED5D /* abcGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B398B02227A14B008EED5D /* abcGitTests.m */; };
 		E5B398BC2227A14B008EED5D /* abcGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B398BB2227A14B008EED5D /* abcGitUITests.m */; };
+		E5B398CB2227A1C2008EED5D /* DSDSFSDFcc.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B398CA2227A1C2008EED5D /* DSDSFSDFcc.m */; };
+		E5B398CE2227A1E7008EED5D /* GSBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B398CD2227A1E7008EED5D /* GSBaseVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E5B398B72227A14B008EED5D /* abcGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abcGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B398BB2227A14B008EED5D /* abcGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abcGitUITests.m; sourceTree = "<group>"; };
 		E5B398BD2227A14B008EED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B398C92227A1C2008EED5D /* DSDSFSDFcc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSDSFSDFcc.h; sourceTree = "<group>"; };
+		E5B398CA2227A1C2008EED5D /* DSDSFSDFcc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSDSFSDFcc.m; sourceTree = "<group>"; };
+		E5B398CC2227A1E7008EED5D /* GSBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSBaseVC.h; sourceTree = "<group>"; };
+		E5B398CD2227A1E7008EED5D /* GSBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSBaseVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				E5B398982227A149008EED5D /* AppDelegate.m */,
 				E5B3989A2227A149008EED5D /* ViewController.h */,
 				E5B3989B2227A149008EED5D /* ViewController.m */,
+				E5B398C92227A1C2008EED5D /* DSDSFSDFcc.h */,
+				E5B398CA2227A1C2008EED5D /* DSDSFSDFcc.m */,
+				E5B398CC2227A1E7008EED5D /* GSBaseVC.h */,
+				E5B398CD2227A1E7008EED5D /* GSBaseVC.m */,
 				E5B3989D2227A149008EED5D /* Main.storyboard */,
 				E5B398A02227A14B008EED5D /* Assets.xcassets */,
 				E5B398A22227A14B008EED5D /* LaunchScreen.storyboard */,
@@ -264,6 +274,8 @@
 			files = (
 				E5B3989C2227A149008EED5D /* ViewController.m in Sources */,
 				E5B398A72227A14B008EED5D /* main.m in Sources */,
+				E5B398CB2227A1C2008EED5D /* DSDSFSDFcc.m in Sources */,
+				E5B398CE2227A1E7008EED5D /* GSBaseVC.m in Sources */,
 				E5B398992227A149008EED5D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
