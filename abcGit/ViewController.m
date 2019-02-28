@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"245");
+    NSLog(@"测试  一二三。  分支完美");
 }
 
 
